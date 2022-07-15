@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA-Decoded.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/InBetweenPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/IsPrimeNumbers.java" afterDir="false" />
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/FibonacciNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/ReverseANumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +33,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.InBetweenPrimes">
+}</component>
+  <component name="RunManager" selected="Application.ReverseANumber">
+    <configuration name="FibonacciNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.FibonacciNumbers" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InBetweenPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.InBetweenPrimes" />
       <module name="DSA-Decoded" />
@@ -80,8 +88,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.ReverseANumber" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseANumber" />
+        <item itemvalue="Application.FibonacciNumbers" />
         <item itemvalue="Application.InBetweenPrimes" />
         <item itemvalue="Application.IsPrimeNumbers" />
       </list>
@@ -95,8 +118,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657713952612</updated>
-      <workItem from="1657713954459" duration="2260000" />
+      <workItem from="1657713954459" duration="2456000" />
+      <workItem from="1657867331020" duration="1280000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1657716323141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657716323141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +144,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
