@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class InBetweenPrimes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int low = sc.nextByte();
+        int low = sc.nextInt();
         int high = sc.nextInt();
         for(int i=low;i<=high;i++){
             boolean flag = false;
@@ -14,8 +14,6 @@ public class InBetweenPrimes {
                     flag = true;
                     break;
                 }
-                else
-                    flag = false;
             }
             if(!flag){
                 System.out.print(i + ", ");

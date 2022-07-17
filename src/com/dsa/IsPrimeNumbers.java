@@ -14,8 +14,6 @@ public class IsPrimeNumbers {
                     flag = true;
                     break;
                 }
-                else
-                    flag=false;
             }
             if(!flag){
                 System.out.println(n + " is prime");
