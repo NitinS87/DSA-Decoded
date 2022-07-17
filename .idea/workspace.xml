@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Fibonacci and Reverse Number done.">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/InverseNumber.java" afterDir="false" />
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="InverseNumber added">
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/RotateNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/InBetweenPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/InBetweenPrimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/IsPrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/IsPrimeNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InverseNumber">
+  <component name="RunManager" selected="Application.RotateNumber">
     <configuration name="FibonacciNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.FibonacciNumbers" />
       <module name="DSA-Decoded" />
@@ -89,19 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.IsPrimeNumbers" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.ReverseANumber" />
       <module name="DSA-Decoded" />
@@ -115,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.RotateNumber" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateNumber" />
         <item itemvalue="Application.InverseNumber" />
         <item itemvalue="Application.ReverseANumber" />
         <item itemvalue="Application.FibonacciNumbers" />
         <item itemvalue="Application.InBetweenPrimes" />
-        <item itemvalue="Application.IsPrimeNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +135,7 @@
       <workItem from="1657867331020" duration="3507000" />
       <workItem from="1658028602359" duration="30000" />
       <workItem from="1658074641463" duration="1398000" />
-      <workItem from="1658076062113" duration="242000" />
+      <workItem from="1658076062113" duration="2259000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657868663108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="InverseNumber added">
+      <created>1658076350593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658076350593</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +178,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="Fibonacci and Reverse Number done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fibonacci and Reverse Number done." />
+    <MESSAGE value="InverseNumber added" />
+    <option name="LAST_COMMIT_MESSAGE" value="InverseNumber added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
