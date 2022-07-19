@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="RotateNumber added">
-      <change afterPath="$PROJECT_DIR$/src/com/array/ArrayClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/ArrayMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/GCDandLCM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/PrimeFactorization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="New Array Class added">
+      <change beforePath="$PROJECT_DIR$/src/com/array/ArrayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/array/ArrayClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/array/ArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/array/ArrayMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +136,7 @@
       <workItem from="1658028602359" duration="30000" />
       <workItem from="1658074641463" duration="1398000" />
       <workItem from="1658076062113" duration="2555000" />
-      <workItem from="1658165433891" duration="4400000" />
+      <workItem from="1658165433891" duration="5362000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658078685969</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New Array Class added">
+      <created>1658218368012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658218368013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +195,8 @@
     <MESSAGE value="Fibonacci and Reverse Number done." />
     <MESSAGE value="InverseNumber added" />
     <MESSAGE value="RotateNumber added" />
-    <option name="LAST_COMMIT_MESSAGE" value="RotateNumber added" />
+    <MESSAGE value="New Array Class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Array Class added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

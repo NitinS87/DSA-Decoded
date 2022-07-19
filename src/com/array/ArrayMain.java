@@ -13,5 +13,8 @@ public class ArrayMain {
         System.out.println(arr.max());
         arr.print();
 
+        arr.reverse();
+        arr.print();
+
     }
 }

@@ -69,4 +69,14 @@ public class ArrayClass {
         return maxItem;
     }
 
+    public void reverse(){
+        int[] reverseItem = new int[count];
+        int revCount = 0;
+        for(int i=count-1;i>=0;i--){
+            reverseItem[revCount++] = items[i];
+        }
+
+        items = reverseItem;
+    }
+
 }
