@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="New Array Class added">
-      <change beforePath="$PROJECT_DIR$/src/com/array/ArrayClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/array/ArrayClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/array/ArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/array/ArrayMain.java" afterDir="false" />
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Added extra methods in Array Class added">
+      <change afterPath="$PROJECT_DIR$/src/com/array/BarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/AnyBaseToAnyBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/DigitFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +51,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayMain">
-    <configuration name="ArrayMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.ArrayMain" />
+  <component name="RunManager" selected="Application.RotateArray">
+    <configuration name="AnyBaseToAnyBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.AnyBaseToAnyBase" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.BarChart" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +78,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDandLCM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.GCDandLCM" />
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.RotateArray" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.array.TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.TwoSum" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -74,34 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.InverseNumber" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeFactorization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.PrimeFactorization" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.RotateNumber" />
+    <configuration name="com.dsa.DigitFrequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.DigitFrequency" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayMain" />
-        <item itemvalue="Application.GCDandLCM" />
-        <item itemvalue="Application.PrimeFactorization" />
-        <item itemvalue="Application.RotateNumber" />
-        <item itemvalue="Application.InverseNumber" />
+        <item itemvalue="Application.RotateArray" />
+        <item itemvalue="Application.com.array.BarChart" />
+        <item itemvalue="Application.AnyBaseToAnyBase" />
+        <item itemvalue="Application.com.dsa.DigitFrequency" />
+        <item itemvalue="Application.com.array.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +140,7 @@
       <workItem from="1658028602359" duration="30000" />
       <workItem from="1658074641463" duration="1398000" />
       <workItem from="1658076062113" duration="2555000" />
-      <workItem from="1658165433891" duration="5362000" />
+      <workItem from="1658165433891" duration="16235000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -173,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658218368013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added extra methods in Array Class added">
+      <created>1658220037029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658220037029</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +207,8 @@
     <MESSAGE value="InverseNumber added" />
     <MESSAGE value="RotateNumber added" />
     <MESSAGE value="New Array Class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Array Class added" />
+    <MESSAGE value="Added extra methods in Array Class added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added extra methods in Array Class added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
