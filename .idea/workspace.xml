@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Done these programs: Bar Chart, Two Sum, RotateArray, DigitFrequency, AnyBaseToAnyBase">
-      <change afterPath="$PROJECT_DIR$/src/com/array/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/BrokenEconomy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/FirstAndLastIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/InverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/SubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/SubsetsOfArray.java" afterDir="false" />
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Done 1-D arrays">
+      <change afterPath="$PROJECT_DIR$/src/com/array/MatrixMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/SpiralTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/WaveTraversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/array/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/array/RotateArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,33 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubsetsOfArray">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.BinarySearch" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BrokenEconomy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.BrokenEconomy" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SpiralTraversal">
     <configuration name="FirstAndLastIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.array.FirstAndLastIndex" />
       <module name="DSA-Decoded" />
@@ -95,8 +65,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.SubArray" />
+    <configuration name="MatrixMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.MatrixMultiplication" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.SpiralTraversal" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaveTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.WaveTraversal" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralTraversal" />
+        <item itemvalue="Application.WaveTraversal" />
+        <item itemvalue="Application.MatrixMultiplication" />
         <item itemvalue="Application.SubsetsOfArray" />
         <item itemvalue="Application.FirstAndLastIndex" />
-        <item itemvalue="Application.BrokenEconomy" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.SubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +141,8 @@
       <workItem from="1658074641463" duration="1398000" />
       <workItem from="1658076062113" duration="2555000" />
       <workItem from="1658165433891" duration="23417000" />
-      <workItem from="1658429333465" duration="6237000" />
+      <workItem from="1658429333465" duration="6790000" />
+      <workItem from="1658510800086" duration="4436000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -203,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658338202461</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Done 1-D arrays">
+      <created>1658494154336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658494154336</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +232,8 @@
     <MESSAGE value="New Array Class added" />
     <MESSAGE value="Added extra methods in Array Class added" />
     <MESSAGE value="Done these programs: Bar Chart, Two Sum, RotateArray, DigitFrequency, AnyBaseToAnyBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done these programs: Bar Chart, Two Sum, RotateArray, DigitFrequency, AnyBaseToAnyBase" />
+    <MESSAGE value="Done 1-D arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done 1-D arrays" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
