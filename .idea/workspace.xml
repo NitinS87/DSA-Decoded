@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Done MatrixMultiplication, SpiralTraversal and WaveTraversal">
-      <change afterPath="$PROJECT_DIR$/src/com/array/DiagonalTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/ExitPointMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/Rotate90Degree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/SaddlePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/SearchIn2DSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/ShellRotate.java" afterDir="false" />
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Done 2D arrays from pepcoding">
+      <change afterPath="$PROJECT_DIR$/src/com/arraylist/RemovePrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string/DifferenceInCharSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string/PalindromicString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string/PrintPermutationOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/string/ToggleCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +54,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SearchIn2DSortedArray">
-    <configuration name="DiagonalTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.DiagonalTraversal" />
+  <component name="RunManager" selected="Application.RemovePrimes">
+    <configuration name="DifferenceInCharSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.DifferenceInCharSize" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rotate90Degree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.Rotate90Degree" />
+    <configuration name="PrintPermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.PrintPermutationOfString" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SaddlePoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.SaddlePoint" />
+    <configuration name="RemovePrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arraylist.RemovePrimes" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchIn2DSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.SearchIn2DSortedArray" />
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.StringCompression" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.ShellRotate" />
+    <configuration name="ToggleCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.string.ToggleCase" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchIn2DSortedArray" />
-        <item itemvalue="Application.SaddlePoint" />
-        <item itemvalue="Application.DiagonalTraversal" />
-        <item itemvalue="Application.ShellRotate" />
-        <item itemvalue="Application.Rotate90Degree" />
+        <item itemvalue="Application.RemovePrimes" />
+        <item itemvalue="Application.PrintPermutationOfString" />
+        <item itemvalue="Application.DifferenceInCharSize" />
+        <item itemvalue="Application.ToggleCase" />
+        <item itemvalue="Application.StringCompression" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,8 @@
       <workItem from="1658165433891" duration="23417000" />
       <workItem from="1658429333465" duration="6790000" />
       <workItem from="1658510800086" duration="5267000" />
-      <workItem from="1658568371738" duration="10847000" />
+      <workItem from="1658568371738" duration="11188000" />
+      <workItem from="1658644802690" duration="8046000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658516265210</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Done 2D arrays from pepcoding">
+      <created>1658637467103</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658637467103</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +253,8 @@
     <MESSAGE value="Done these programs: Bar Chart, Two Sum, RotateArray, DigitFrequency, AnyBaseToAnyBase" />
     <MESSAGE value="Done 1-D arrays" />
     <MESSAGE value="Done MatrixMultiplication, SpiralTraversal and WaveTraversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done MatrixMultiplication, SpiralTraversal and WaveTraversal" />
+    <MESSAGE value="Done 2D arrays from pepcoding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done 2D arrays from pepcoding" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
