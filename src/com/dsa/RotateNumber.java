@@ -17,7 +17,7 @@ public class RotateNumber {
         if(k>0)
             rotN = rotateNumber(n, k, count);
         if(k<0){
-            k = k*-1;
+            k *= -1;
             int rev = reverseNumber(n);
             rev = rotateNumber(rev, k, count);
             rotN = reverseNumber(rev);
@@ -33,8 +33,7 @@ public class RotateNumber {
         rem = n%div;
         n=n/div;
 
-
-        rotN = n + rem*(int) Math.pow(10, count-k);
+        rotN = n + rem*((int) Math.pow(10, count-k));
         return rotN;
     }
 
