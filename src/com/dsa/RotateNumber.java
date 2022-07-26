@@ -12,7 +12,7 @@ public class RotateNumber {
         int count = countDigits(n);
         k = k%count;
 
-        if(k==count)
+        if(k==count || k==0)
             rotN = n;
         if(k>0)
             rotN = rotateNumber(n, k, count);
