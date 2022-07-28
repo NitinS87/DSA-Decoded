@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Made some changes in RotateNumber">
+      <change afterPath="$PROJECT_DIR$/src/com/array/MinAndMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/RotateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/RotateNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RotateNumber">
-    <configuration name="DifferenceInCharSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.string.DifferenceInCharSize" />
+  <component name="RunManager" selected="Application.MinAndMax">
+    <configuration name="BrokenEconomy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.BrokenEconomy" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.string.*" />
+          <option name="PATTERN" value="com.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintPermutationOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.string.PrintPermutationOfString" />
+    <configuration name="MinAndMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.MinAndMax" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.string.*" />
+          <option name="PATTERN" value="com.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.RotateArray" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RotateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dsa.RotateNumber" />
       <module name="DSA-Decoded" />
@@ -102,26 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToggleCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.string.ToggleCase" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinAndMax" />
+        <item itemvalue="Application.BrokenEconomy" />
+        <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.RotateNumber" />
         <item itemvalue="Application.RemovePrimes" />
-        <item itemvalue="Application.PrintPermutationOfString" />
-        <item itemvalue="Application.DifferenceInCharSize" />
-        <item itemvalue="Application.ToggleCase" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,9 @@
       <workItem from="1658568371738" duration="11188000" />
       <workItem from="1658644802690" duration="8363000" />
       <workItem from="1658740357363" duration="29000" />
-      <workItem from="1658821003802" duration="6081000" />
+      <workItem from="1658821003802" duration="7324000" />
+      <workItem from="1658907909149" duration="3986000" />
+      <workItem from="1658994920815" duration="10349000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -251,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658832036682</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Made some changes in RotateNumber">
+      <created>1658832484331</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658832484331</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
