@@ -30,7 +30,6 @@ public class MinAndMax {
             n--;
 
         for(int i=0;i<n;i=i+2){
-            int maximum, minimum;
 
             //find maximum and minimum among nums[i] and nums[i+1]
             if(arr[i]>arr[i+1]){
