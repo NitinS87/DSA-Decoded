@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Made some changes in RotateNumber">
-      <change afterPath="$PROJECT_DIR$/src/com/array/MinAndMax.java" afterDir="false" />
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Done MinAndMax question">
+      <change afterPath="$PROJECT_DIR$/src/com/array/SegregatingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/UnionOfArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/PivotIndex724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/SubarraySumEqualsK560.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/AllIndicesArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/DisplayArrayBoth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/FirstAndLastIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/MaxOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/PowerLinearAndLogarithmic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/PrintIncreasingDecreasing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/PrintZigZag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/TowerOfHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;423154&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -46,16 +62,16 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinAndMax">
-    <configuration name="BrokenEconomy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.BrokenEconomy" />
+  <component name="RunManager" selected="Application.FirstAndLastIndex">
+    <configuration name="DisplayArrayBoth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.DisplayArrayBoth" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinAndMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.MinAndMax" />
+    <configuration name="FirstAndLastIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.FirstAndLastIndex" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovePrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.arraylist.RemovePrimes" />
+    <configuration name="MaxOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.MaxOfArray" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.arraylist.*" />
+          <option name="PATTERN" value="com.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.RotateArray" />
+    <configuration name="PrintZigZag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.PrintZigZag" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.RotateNumber" />
+    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.TowerOfHanoi" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.*" />
+          <option name="PATTERN" value="com.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinAndMax" />
-        <item itemvalue="Application.BrokenEconomy" />
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.RotateNumber" />
-        <item itemvalue="Application.RemovePrimes" />
+        <item itemvalue="Application.FirstAndLastIndex" />
+        <item itemvalue="Application.MaxOfArray" />
+        <item itemvalue="Application.DisplayArrayBoth" />
+        <item itemvalue="Application.TowerOfHanoi" />
+        <item itemvalue="Application.PrintZigZag" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +163,9 @@
       <workItem from="1658821003802" duration="7324000" />
       <workItem from="1658907909149" duration="3986000" />
       <workItem from="1658994920815" duration="10349000" />
+      <workItem from="1659035246255" duration="188000" />
+      <workItem from="1659036508094" duration="13199000" />
+      <workItem from="1659119885904" duration="2380000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -260,7 +279,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658832484331</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Done MinAndMax question">
+      <created>1659035381989</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659035381989</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Done MinAndMax question">
+      <created>1659035406537</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659035406537</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +325,8 @@
     <MESSAGE value="MAde some changes in GCD and LCM" />
     <MESSAGE value="Made some changes in GCD and LCM" />
     <MESSAGE value="Made some changes in RotateNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made some changes in RotateNumber" />
+    <MESSAGE value="Done MinAndMax question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done MinAndMax question" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
