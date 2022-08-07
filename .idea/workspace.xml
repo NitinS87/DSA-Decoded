@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Today I learned more recursion and did some questions about it">
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns">
       <change afterPath="$PROJECT_DIR$/src/com/array/MoveNegativeElements.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/array/MoveZeroesOrdered.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/array/UnionOfArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/PivotIndex724.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/RunningSum1D1480.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/SubarraySumEqualsK560.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/IsomorphicStrings205.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/AllIndicesArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/CombinationSum2Leetcode40.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/CombinationSumLeetcode39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/KthPermutationSequence60.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/MColoringProblem.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/PalindromePartitioning.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/PrintAllPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/RatInAMaze.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/SubSetSum.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/SubSetSumDifferent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/SubsequenceSumPatterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/SubsequencesArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/recursion/SudokuSolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,12 +66,38 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PrintAllPermutations">
-    <configuration name="CombinationSum2Leetcode40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.CombinationSum2Leetcode40" />
+  <component name="RunManager" selected="Application.NQueens">
+    <configuration name="CombinationSumLeetcode39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.CombinationSumLeetcode39" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoveNegativeElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.MoveNegativeElements" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.NQueens" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -97,34 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSetSUmDifferent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.SubSetSUmDifferent" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubSetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.SubSetSum" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsequenceSumPatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.SubsequenceSumPatterns" />
+    <configuration name="RatInAMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.recursion.RatInAMaze" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NQueens" />
         <item itemvalue="Application.PrintAllPermutations" />
-        <item itemvalue="Application.SubSetSUmDifferent" />
-        <item itemvalue="Application.SubSetSum" />
-        <item itemvalue="Application.SubsequenceSumPatterns" />
-        <item itemvalue="Application.CombinationSum2Leetcode40" />
+        <item itemvalue="Application.CombinationSumLeetcode39" />
+        <item itemvalue="Application.MoveNegativeElements" />
+        <item itemvalue="Application.RatInAMaze" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +174,9 @@
       <workItem from="1659631808638" duration="6571000" />
       <workItem from="1659709257944" duration="4113000" />
       <workItem from="1659715709942" duration="10579000" />
-      <workItem from="1659807371819" duration="976000" />
+      <workItem from="1659807371819" duration="9941000" />
+      <workItem from="1659871727387" duration="7872000" />
+      <workItem from="1659898672207" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -317,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659633932236</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns">
+      <created>1659808503937</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659808503937</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +360,8 @@
     <MESSAGE value="Done MinAndMax question" />
     <MESSAGE value="Today I learned recursion and did some questions of arrays" />
     <MESSAGE value="Today I learned more recursion and did some questions about it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Today I learned more recursion and did some questions about it" />
+    <MESSAGE value="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
