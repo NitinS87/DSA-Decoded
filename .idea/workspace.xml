@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns">
-      <change afterPath="$PROJECT_DIR$/src/com/array/MoveNegativeElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/MoveZeroesOrdered.java" afterDir="false" />
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Today I learned more recursion and did some questions about it like CombinationSum2Leetcode40, PrintAllPermutations and brush up some array questions MoveNegativeElements and MoveZeroesOrdered">
+      <change afterPath="$PROJECT_DIR$/src/com/array/FindTheDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/KadaneAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/MinimizeTheHeights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/MinimumJumps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/array/UnionOfArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/SubarraySumEqualsK560.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/IsomorphicStrings205.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/AllIndicesArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/CombinationSum2Leetcode40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/CombinationSumLeetcode39.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/KthPermutationSequence60.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/MColoringProblem.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/NQueens.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/PalindromePartitioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/PrintAllPermutations.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/RatInAMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/SubSetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/SubSetSumDifferent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/SudokuSolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -69,13 +65,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NQueens">
-    <configuration name="CombinationSumLeetcode39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.CombinationSumLeetcode39" />
+  <component name="RunManager" selected="Application.MinimumJumps">
+    <configuration name="KadaneAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.KadaneAlgorithm" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
+          <option name="PATTERN" value="com.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +79,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveNegativeElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.MoveNegativeElements" />
+    <configuration name="MinimizeTheHeights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.MinimizeTheHeights" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.MinimumJumps" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -101,20 +110,7 @@
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintAllPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.PrintAllPermutations" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
+          <option name="PATTERN" value="com.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,7 +123,7 @@
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.recursion.*" />
+          <option name="PATTERN" value="com.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.PrintAllPermutations" />
-        <item itemvalue="Application.CombinationSumLeetcode39" />
-        <item itemvalue="Application.MoveNegativeElements" />
+        <item itemvalue="Application.MinimumJumps" />
+        <item itemvalue="Application.MinimizeTheHeights" />
+        <item itemvalue="Application.KadaneAlgorithm" />
         <item itemvalue="Application.RatInAMaze" />
+        <item itemvalue="Application.NQueens" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +172,9 @@
       <workItem from="1659715709942" duration="10579000" />
       <workItem from="1659807371819" duration="9941000" />
       <workItem from="1659871727387" duration="7872000" />
-      <workItem from="1659898672207" duration="1191000" />
+      <workItem from="1659898672207" duration="3422000" />
+      <workItem from="1659958628045" duration="4253000" />
+      <workItem from="1659977277214" duration="6426000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -325,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659808503937</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Today I learned more recursion and did some questions about it like CombinationSum2Leetcode40, PrintAllPermutations and brush up some array questions MoveNegativeElements and MoveZeroesOrdered">
+      <created>1659900020215</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659900020216</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +366,8 @@
     <MESSAGE value="Today I learned recursion and did some questions of arrays" />
     <MESSAGE value="Today I learned more recursion and did some questions about it" />
     <MESSAGE value="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns" />
+    <MESSAGE value="Today I learned more recursion and did some questions about it like CombinationSum2Leetcode40, PrintAllPermutations and brush up some array questions MoveNegativeElements and MoveZeroesOrdered" />
+    <option name="LAST_COMMIT_MESSAGE" value="Today I learned more recursion and did some questions about it like CombinationSum2Leetcode40, PrintAllPermutations and brush up some array questions MoveNegativeElements and MoveZeroesOrdered" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
