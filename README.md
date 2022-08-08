@@ -1,3 +1,3 @@
 # DSA-Decoded
 
-Hi! This is my personal Data Structures and Algorithms repo to record my questions and submissions.
+Hi! This is my personal Data Structures and Algorithms repo to keep track of my questions and submissions.
