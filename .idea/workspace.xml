@@ -4,20 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Today I learned more recursion and did some questions about it like CombinationSum2Leetcode40, PrintAllPermutations and brush up some array questions MoveNegativeElements and MoveZeroesOrdered">
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Done recursion and backtracking basics and some advance from striver">
+      <change afterPath="$PROJECT_DIR$/src/com/array/AlternatingNegAndPos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/BasicSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/CommonElements3Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/CountInversion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/array/FindTheDuplicateNumber.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/array/KadaneAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/MergeTwoSortedArrays.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/array/MinimizeTheHeights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/MinimumJumps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/UnionOfArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/UnionAndIntersectionOfArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/FactorialNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/BestTimeToBuyAndSellStock121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/MergeIntervals56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/MinimumJumps45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/NextPermutation31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/numbers/PalindromeNumber9.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/IsomorphicStrings205.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/LongestSubstringWithoutRepeatingChar3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/AllIndicesArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/KthPermutationSequence60.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/MColoringProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/PalindromePartitioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/RatInAMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/recursion/SudokuSolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,9 +72,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinimumJumps">
-    <configuration name="KadaneAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.KadaneAlgorithm" />
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="AlternatingNegAndPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.AlternatingNegAndPos" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimizeTheHeights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.MinimizeTheHeights" />
+    <configuration name="BasicSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.BasicSorting" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +99,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumJumps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.MinimumJumps" />
+    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dsa.FactorialNumber" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.MergeSort" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -105,21 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.NQueens" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RatInAMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.recursion.RatInAMaze" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.QuickSort" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
@@ -133,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MinimumJumps" />
-        <item itemvalue="Application.MinimizeTheHeights" />
-        <item itemvalue="Application.KadaneAlgorithm" />
-        <item itemvalue="Application.RatInAMaze" />
-        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.BasicSorting" />
+        <item itemvalue="Application.FactorialNumber" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.AlternatingNegAndPos" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +181,12 @@
       <workItem from="1659871727387" duration="7872000" />
       <workItem from="1659898672207" duration="3422000" />
       <workItem from="1659958628045" duration="4253000" />
-      <workItem from="1659977277214" duration="6426000" />
+      <workItem from="1659977277214" duration="6657000" />
+      <workItem from="1660064171107" duration="3790000" />
+      <workItem from="1660101934656" duration="5239000" />
+      <workItem from="1660157023263" duration="2278000" />
+      <workItem from="1660292478310" duration="29260000" />
+      <workItem from="1660484936500" duration="9400000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -330,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659900020216</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Done recursion and backtracking basics and some advance from striver">
+      <created>1659985187668</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659985187668</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +386,8 @@
     <MESSAGE value="Today I learned more recursion and did some questions about it" />
     <MESSAGE value="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns" />
     <MESSAGE value="Today I learned more recursion and did some questions about it like CombinationSum2Leetcode40, PrintAllPermutations and brush up some array questions MoveNegativeElements and MoveZeroesOrdered" />
-    <option name="LAST_COMMIT_MESSAGE" value="Today I learned more recursion and did some questions about it like CombinationSum2Leetcode40, PrintAllPermutations and brush up some array questions MoveNegativeElements and MoveZeroesOrdered" />
+    <MESSAGE value="Done recursion and backtracking basics and some advance from striver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done recursion and backtracking basics and some advance from striver" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
