@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Done recursion and backtracking basics and some advance from striver">
+    <list default="true" id="33aab040-de14-4a5a-ad12-f2bb45840535" name="Changes" comment="Done some questions of array from DSA450">
       <change afterPath="$PROJECT_DIR$/src/com/array/AlternatingNegAndPos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/BasicSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/CommonElements3Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/CountInversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/FindTheDuplicateNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/KadaneAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/MergeTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/MinimizeTheHeights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/array/UnionAndIntersectionOfArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/FactorialNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/array/CountInversionND.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/BestTimeToBuyAndSellStock121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/MergeIntervals56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/MinimumJumps45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/CommonElements3Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/FindTheDuplicateNumber287.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/MergeIntervals56ND.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/array/NextPermutation31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/leetcode/numbers/PalindromeNumber9.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/IsomorphicStrings205.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/leetcode/string/LongestSubstringWithoutRepeatingChar3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/recursion/AllIndicesArray.java" afterDir="false" />
@@ -72,7 +62,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.AlternatingNegAndPos">
     <configuration name="AlternatingNegAndPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.array.AlternatingNegAndPos" />
       <module name="DSA-Decoded" />
@@ -91,7 +81,7 @@
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dsa.FactorialNumber" />
+    <configuration name="CountInversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.array.CountInversion" />
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dsa.*" />
+          <option name="PATTERN" value="com.leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheDuplicateNumber287" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.FindTheDuplicateNumber287" />
+      <module name="DSA-Decoded" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,20 +120,7 @@
       <module name="DSA-Decoded" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.array.QuickSort" />
-      <module name="DSA-Decoded" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.array.*" />
+          <option name="PATTERN" value="com.leetcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AlternatingNegAndPos" />
+        <item itemvalue="Application.FindTheDuplicateNumber287" />
+        <item itemvalue="Application.CountInversion" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BasicSorting" />
-        <item itemvalue="Application.FactorialNumber" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.AlternatingNegAndPos" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +176,7 @@
       <workItem from="1660101934656" duration="5239000" />
       <workItem from="1660157023263" duration="2278000" />
       <workItem from="1660292478310" duration="29260000" />
-      <workItem from="1660484936500" duration="9400000" />
+      <workItem from="1660484936500" duration="17167000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1657716323141</created>
@@ -349,7 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659985187668</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Done some questions of array from DSA450">
+      <created>1660501715677</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1660501715677</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Done some questions of array from DSA450">
+      <created>1660501763081</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1660501763081</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +391,8 @@
     <MESSAGE value="Today I learned more recursion and did some questions about it like SubsequencesArray, SubsequenceSumPatterns" />
     <MESSAGE value="Today I learned more recursion and did some questions about it like CombinationSum2Leetcode40, PrintAllPermutations and brush up some array questions MoveNegativeElements and MoveZeroesOrdered" />
     <MESSAGE value="Done recursion and backtracking basics and some advance from striver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done recursion and backtracking basics and some advance from striver" />
+    <MESSAGE value="Done some questions of array from DSA450" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done some questions of array from DSA450" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSA_Decoded$InBetweenPrimes.ic" NAME="InBetweenPrimes Coverage Results" MODIFIED="1657716161540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
