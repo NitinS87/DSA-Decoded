@@ -34,7 +34,7 @@ public class RotateNumber {
         rotN = n + rem*((int) Math.pow(10, count-k));
         return rotN;
     }
-    
+
     static int countDigits(int n) {
         int count = 0;
         int k = n;
