@@ -8,19 +8,17 @@ public class RotateNumber {
         int n = sc.nextInt();
         int k = sc.nextInt();
 
-        int rotN = 0;
+        int rotN;
         int count = countDigits(n);
         k = k%count;
 
         if(k==count || k==0)
             rotN = n;
-        if(k>0)
+
+        else{
+            if(k<0)
+                k=k+count;
             rotN = rotateNumber(n, k, count);
-        if(k<0){
-            k *= -1;
-            int rev = reverseNumber(n);
-            rev = rotateNumber(rev, k, count);
-            rotN = reverseNumber(rev);
         }
 
         System.out.println(rotN);
@@ -36,16 +34,7 @@ public class RotateNumber {
         rotN = n + rem*((int) Math.pow(10, count-k));
         return rotN;
     }
-
-    static int reverseNumber(int n) {
-        int rev = 0;
-        while(n!=0){
-            rev = rev*10 + n%10;
-            n = n%10;
-        }
-        return rev;
-    }
-
+    
     static int countDigits(int n) {
         int count = 0;
         int k = n;
