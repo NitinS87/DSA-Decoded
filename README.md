@@ -25,8 +25,8 @@ Hi! This is my personal Data Structures and Algorithms repo to keep track of my 
                                             Original Digit --> Inverted Place ``ip = Math.pow(10, od-1)``<br>
                                             
 7. Any Base To Any Base: First convert any base to decimal then decimal to destination base<br>
-                         AnyBaseToDecimal: Divide the number by 10, add it, then multiply remainder with power of base<br>
-                         DecimalToAnyBase: Divide it with desired base then add all those remainders by keeps increasing power of 10.<br>
+                         ``AnyBaseToDecimal: Divide the number by 10, add it, then multiply remainder with power of base``<br>
+                         ``DecimalToAnyBase: Divide it with desired base then add all those remainders by keeps increasing power of 10``.<br>
                                             
                     
                   
